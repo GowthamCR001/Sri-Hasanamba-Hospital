@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 65" width="220" height="65">
+  <rect width="220" height="65" rx="8" fill="#ffffff"/>
+  <g transform="translate(12, 10)">
+    <polygon points="18,4 32,12 32,28 18,36 4,28 4,12" fill="#D2232A"/>
+    <text x="18" y="26" font-family="'Rethink Sans', 'Arial', sans-serif" font-weight="900" font-size="18" fill="#ffffff" text-anchor="middle">R</text>
+    <text x="42" y="22" font-family="'Rethink Sans', 'Arial', sans-serif" font-weight="800" font-size="18" fill="#002D62">Reliance</text>
+    <text x="42" y="37" font-family="'Rethink Sans', 'Arial', sans-serif" font-weight="600" font-size="11" fill="#D2232A" letter-spacing="0.5">General Insurance</text>
+  </g>
+</svg>

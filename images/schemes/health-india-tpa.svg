@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 65" width="220" height="65">
+  <rect width="220" height="65" rx="8" fill="#ffffff"/>
+  <g transform="translate(10, 10)">
+    <rect x="2" y="5" width="34" height="34" rx="8" fill="#1565C0"/>
+    <path d="M19 12 V32 M9 22 H29" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <text x="44" y="22" font-family="'Rethink Sans', 'Arial', sans-serif" font-weight="800" font-size="17" fill="#1565C0">Health India</text>
+    <text x="44" y="36" font-family="'Rethink Sans', 'Arial', sans-serif" font-weight="700" font-size="12" fill="#D32F2F" letter-spacing="1">TPA SERVICES</text>
+  </g>
+</svg>

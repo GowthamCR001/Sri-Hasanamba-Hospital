@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 65" width="220" height="65">
+  <rect width="220" height="65" rx="8" fill="#ffffff"/>
+  <g transform="translate(10, 10)">
+    <polygon points="10,34 22,10 34,34" fill="#008850"/>
+    <polygon points="16,34 22,22 28,34" fill="#ffffff"/>
+    <circle cx="22" cy="29" r="3" fill="#ED1C24"/>
+    <text x="42" y="22" font-family="'Rethink Sans', 'Arial', sans-serif" font-weight="800" font-size="16" fill="#008850">IFFCO-TOKIO</text>
+    <text x="42" y="36" font-family="'Rethink Sans', 'Arial', sans-serif" font-weight="600" font-size="10.5" fill="#ED1C24" letter-spacing="0.5">GENERAL INSURANCE</text>
+  </g>
+</svg>

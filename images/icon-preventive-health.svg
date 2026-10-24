@@ -1,0 +1,6 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Preventive health shield -->
+  <path d="M14 2L5 6V13C5 19.5 8.8 24.5 14 26C19.2 24.5 23 19.5 23 13V6L14 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Inner ECG vital pulse -->
+  <path d="M8 14H10.5L12 10.5L14.5 17.5L16.5 12.5L18 14.5H20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

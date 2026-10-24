@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description"
+        content="Meet the expert doctors and medical consultants at Sri Hasanamba Multispeciality Hospital & Gastroenterology Center.">
+    <meta name="keywords"
+        content="Hasanamba Hospital Doctors, Gastroenterologist, Pediatrician, Orthopedic Surgeon, Physicians">
+    <meta name="author" content="Sri Hasanamba Hospital">
+    <!-- Page Title -->
+    <title>Our Doctors - Sri Hasanamba Multispeciality Hospital</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpeg">
+    <!-- Google Fonts Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- SlickNav Css -->
+    <link href="css/slicknav.min.css" rel="stylesheet">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Font Awesome Icon Css-->
+    <link href="css/all.min.css" rel="stylesheet" media="screen">
+    <!-- Animated Css -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Magnific Popup Core Css File -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Mouse Cursor Css File -->
+    <link rel="stylesheet" href="css/mousecursor.css">
+    <!-- Main Custom Css -->
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="images/logo.jpeg" alt=""></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Header Start -->
+    <header class="main-header active-sticky-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="./">
+                        <img src="images/logo.jpeg" alt="Sri Hasanamba Hospital Logo">
+                    </a>
+                    <!-- Logo End -->
+
+                    <!-- Main Menu Start -->
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="specialities.html">Specialities</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="doctors.html">Our Doctor</a></li>
+                                <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                                <li class="nav-item"><a class="nav-link" href="scheme.html">Scheme</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link"
+                                        href="book-appointment.html">Book Appointment</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Header Btn Start -->
+                        <div class="header-btn">
+                            <a href="book-appointment.html" class="btn-default btn-highlighted">Book Appointment</a>
+                        </div>
+                        <!-- Header Btn End -->
+                    </div>
+                    <!-- Main Menu End -->
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Page Header Section Start -->
+    <div class="page-header dark-section parallaxie" style="background-position: center -100.25px !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Our Medical Team</h1>
+                        <nav class="wow fadeInUp">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">HOME</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Our Doctor</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <!-- Page Header Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header Section End -->
+
+    <!-- Custom Styles for Doctor Cards -->
+    <style>
+        .our-medical-team-section {
+            padding: 80px 0 90px;
+            background: #f8fbfe;
+        }
+
+        .doctor-card {
+            background: #ffffff;
+            border-radius: 24px;
+            padding: 32px 24px 26px;
+            height: calc(100% - 30px);
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid #e3eef5;
+            box-shadow: 0 10px 30px rgba(0, 45, 84, 0.05);
+            transition: all 0.35s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .doctor-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-color), #00a4e4);
+            opacity: 0;
+            transition: opacity 0.35s ease;
+        }
+
+        .doctor-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0, 93, 171, 0.14);
+            border-color: #c0ddee;
+        }
+
+        .doctor-card:hover::before {
+            opacity: 1;
+        }
+
+        .doctor-avatar {
+            max-width: 180px;
+            margin: 0 auto 20px;
+            text-align: center;
+        }
+
+        .doctor-avatar a {
+            display: block;
+            border-radius: 50%;
+        }
+
+        .doctor-avatar figure {
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto;
+            border: 4px solid #f0f7fb;
+            box-shadow: 0 8px 22px rgba(0, 45, 84, 0.12);
+            transition: all 0.4s ease;
+            position: relative;
+        }
+
+        .doctor-card:hover .doctor-avatar figure {
+            border-color: var(--accent-color);
+            transform: scale(1.04);
+        }
+
+        .doctor-avatar figure img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            object-position: top center;
+            display: block;
+        }
+
+        .doctor-name {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 0 0 8px;
+            text-align: center;
+        }
+
+        .doctor-name a {
+            color: inherit;
+            transition: color 0.3s ease;
+        }
+
+        .doctor-name a:hover {
+            color: var(--accent-color);
+        }
+
+        .doctor-speciality {
+            color: var(--accent-color) !important;
+            font-weight: 600 !important;
+            font-size: 14px !important;
+            line-height: 1.45 !important;
+            margin: 0 0 14px !important;
+            text-align: center;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .doctor-description {
+            font-size: 13.5px !important;
+            line-height: 1.6 !important;
+            color: #55686d !important;
+            margin: 0 0 18px !important;
+            text-align: center;
+            min-height: 88px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .doctor-card-actions {
+            padding-top: 18px;
+            border-top: 1px dashed #dbe9f1;
+            text-align: center;
+        }
+
+        .doctor-book-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 10px 20px !important;
+            font-size: 14px !important;
+            font-weight: 600;
+            border-radius: 30px !important;
+            background: var(--primary-color);
+            color: #ffffff !important;
+            transition: all 0.3s ease;
+        }
+
+        .doctor-book-btn:hover {
+            background: var(--accent-color);
+            color: #ffffff !important;
+            box-shadow: 0 6px 18px rgba(0, 93, 171, 0.3);
+        }
+
+        .team-cta-box {
+            background: linear-gradient(135deg, var(--primary-color) 0%, #00457c 100%);
+            border-radius: 24px;
+            padding: 40px 50px;
+            color: #ffffff;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 24px;
+            box-shadow: 0 15px 40px rgba(0, 45, 84, 0.18);
+        }
+
+        .team-cta-box h3 {
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .team-cta-box p {
+            color: #e0ecf5;
+            margin: 0;
+            font-size: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .team-cta-box {
+                padding: 30px 24px;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+    </style>
+
+    <!-- Our Team Section Start -->
+    <div class="our-medical-team-section">
+        <div class="container">
+            <div class="row section-row">
+                <div class="col-lg-12">
+                    <div class="section-title section-title-center">
+                        <span class="section-sub-title wow fadeInUp">Dedicated Medical Faculty</span>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Meet Our Renowned Specialists &amp; Doctors
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Our multi-disciplinary team of highly skilled
+                            doctors, surgeons, and specialists bring decades of clinical excellence, empathy, and
+                            advanced patient care to Sri Hasanamba Multispeciality Hospital.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Doctor 1: Dr. Basavaraja G. N. -->
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="doctor-card wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="doctor-card-top">
+                            <div class="doctor-avatar">
+                                <a href="team-single.html" data-cursor-text="View">
+                                    <figure>
+                                        <img src="images/dr-basavaraja.png" alt="Dr. Basavaraja G. N.">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="doctor-info">
+                                <h3 class="doctor-name"><a href="team-single.html">Dr. Basavaraja G. N.</a></h3>
+                                <p class="doctor-speciality">Surgical Gastroenterologist &amp; Hepatobiliary Surgeon</p>
+                                <p class="doctor-description">Specialises in surgical care for digestive system
+                                    disorders and diseases of the liver, gallbladder, bile ducts, and pancreas.</p>
+                            </div>
+                        </div>
+                        <div class="doctor-card-actions">
+                            <a href="book-appointment.html" class="btn-default doctor-book-btn">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor 2: Dr. Prerna G. Bhanathi -->
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="doctor-card wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="doctor-card-top">
+                            <div class="doctor-avatar">
+                                <a href="book-appointment.html" data-cursor-text="Book">
+                                    <figure>
+                                        <img src="images/doctor2.png" alt="Dr. Prerna G. Byahatti">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="doctor-info">
+                                <h3 class="doctor-name"><a href="book-appointment.html">Dr. Prerna G. Byahatti</a></h3>
+                                <p class="doctor-speciality">Physician &amp; Critical Care Specialist</p>
+                                <p class="doctor-description">Provides medical care for a wide range of health
+                                    conditions, with a focus on critically ill patients and intensive care management.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="doctor-card-actions">
+                            <a href="book-appointment.html" class="btn-default doctor-book-btn">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor 3: Dr. Manu B. B. -->
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="doctor-card wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="doctor-card-top">
+                            <div class="doctor-avatar">
+                                <a href="book-appointment.html" data-cursor-text="Book">
+                                    <figure>
+                                        <img src="images/doctor1.png" alt="Dr. Manu B. B.">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="doctor-info">
+                                <h3 class="doctor-name"><a href="book-appointment.html">Dr. Manu B. B.</a></h3>
+                                <p class="doctor-speciality">Orthopaedic &amp; Spine Surgeon</p>
+                                <p class="doctor-description">Specialises in orthopaedic conditions and spine disorders,
+                                    focusing on the diagnosis and treatment of bone, joint, and spinal problems.</p>
+                            </div>
+                        </div>
+                        <div class="doctor-card-actions">
+                            <a href="book-appointment.html" class="btn-default doctor-book-btn">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor 4: Dr. Prashanth Kumar G. A. -->
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="doctor-card wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="doctor-card-top">
+                            <div class="doctor-avatar">
+                                <a href="book-appointment.html" data-cursor-text="Book">
+                                    <figure>
+                                        <img src="images/doctor1.png" alt="Dr. Prashanth Kumar G. A.">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="doctor-info">
+                                <h3 class="doctor-name"><a href="book-appointment.html">Dr. Prashanth Kumar G. A.</a>
+                                </h3>
+                                <p class="doctor-speciality">Orthopaedic Specialist</p>
+                                <p class="doctor-description">Provides care for bone, joint, and musculoskeletal
+                                    conditions, helping patients manage injuries and improve mobility.</p>
+                            </div>
+                        </div>
+                        <div class="doctor-card-actions">
+                            <a href="book-appointment.html" class="btn-default doctor-book-btn">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor 5: Dr. Manohar S. R. -->
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="doctor-card wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="doctor-card-top">
+                            <div class="doctor-avatar">
+                                <a href="book-appointment.html" data-cursor-text="Book">
+                                    <figure>
+                                        <img src="images/doctor1.png" alt="Dr. Manohar S. R.">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="doctor-info">
+                                <h3 class="doctor-name"><a href="book-appointment.html">Dr. Manohar S. R.</a></h3>
+                                <p class="doctor-speciality">ENT Specialist</p>
+                                <p class="doctor-description">Specialises in the diagnosis and treatment of conditions
+                                    affecting the ear, nose, and throat.</p>
+                            </div>
+                        </div>
+                        <div class="doctor-card-actions">
+                            <a href="book-appointment.html" class="btn-default doctor-book-btn">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor 6: Dr. Harsha Suresh -->
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="doctor-card wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="doctor-card-top">
+                            <div class="doctor-avatar">
+                                <a href="book-appointment.html" data-cursor-text="Book">
+                                    <figure>
+                                        <img src="images/doctor1.png" alt="Dr. Harsha Suresh">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="doctor-info">
+                                <h3 class="doctor-name"><a href="book-appointment.html">Dr. Harsha Suresh</a></h3>
+                                <p class="doctor-speciality">Neurosurgeon</p>
+                                <p class="doctor-description">Specialises in the surgical management of conditions
+                                    affecting the brain, spine, and nervous system.</p>
+                            </div>
+                        </div>
+                        <div class="doctor-card-actions">
+                            <a href="book-appointment.html" class="btn-default doctor-book-btn">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor 7: Dr. Raghavendra B. K. -->
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="doctor-card wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="doctor-card-top">
+                            <div class="doctor-avatar">
+                                <a href="book-appointment.html" data-cursor-text="Book">
+                                    <figure>
+                                        <img src="images/doctor1.png" alt="Dr. Raghavendra B. K.">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="doctor-info">
+                                <h3 class="doctor-name"><a href="book-appointment.html">Dr. Raghavendra B. K.</a></h3>
+                                <p class="doctor-speciality">Consultant Oncologist</p>
+                                <p class="doctor-description">Specialises in cancer care, including the evaluation and
+                                    management of patients with oncological conditions.</p>
+                            </div>
+                        </div>
+                        <div class="doctor-card-actions">
+                            <a href="book-appointment.html" class="btn-default doctor-book-btn">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor 8: Dr. Ravi T. Chickkanamanavar -->
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="doctor-card wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="doctor-card-top">
+                            <div class="doctor-avatar">
+                                <a href="book-appointment.html" data-cursor-text="Book">
+                                    <figure>
+                                        <img src="images/doctor1.png" alt="Dr. Ravi T. Chickkanamanavar">
+                                    </figure>
+                                </a>
+                            </div>
+                            <div class="doctor-info">
+                                <h3 class="doctor-name"><a href="book-appointment.html">Dr. Ravi T. Chickkanamanavar</a>
+                                </h3>
+                                <p class="doctor-speciality">Internal Medicine Specialist</p>
+                                <p class="doctor-description">Provides comprehensive medical care for adults, focusing
+                                    on the diagnosis, treatment, and management of a wide range of medical conditions.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="doctor-card-actions">
+                            <a href="book-appointment.html" class="btn-default doctor-book-btn">Book Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doctor Consultation CTA Banner -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="team-cta-box wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-cta-text">
+                            <h3>Need Immediate or Specialized Medical Consultation?</h3>
+                            <p>Our dedicated faculty of specialists and emergency medical staff are available around the
+                                clock to support you.</p>
+                        </div>
+                        <div class="team-cta-action">
+                            <a href="book-appointment.html" class="btn-default btn-highlighted"
+                                style="padding: 14px 28px; font-size: 15px; border-radius: 30px;">Book an Appointment
+                                Today</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Team Section End -->
+
+
+
+    <!-- Main Footer Start -->
+    <div class="main-footer bg-section dark-section">
+        <div class="container">
+            <div class="row">
+                <!--<div class="col-xl-5">
+                    <div class="lets-talk-box">
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">Let's Start Your Project</span>
+                           
+                            <div class="lets-talk-title">
+                                <h2><a href="contact.html">Let's Talk</a></h2>
+                               
+                                <div class="years-experience-circle">
+                                    <figure>
+                                        <img src="images/years-experience-circle-accent.svg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="col-xl-12">
+                    <!-- Footer Links Box Start -->
+                    <div class="footer-links-box">
+                        <!-- Footer Header Start -->
+                        <div class="footer-header">
+                            <!-- Footer Logo Start -->
+                            <div class="footer-logo">
+                                <img src="images/logo.jpeg" alt="Sri Hasanamba Hospital">
+                                <div class="footer-logo-text">
+                                    <h1>Hasanamba Hospital</h1>
+                                    <h2>Multi Speciality Hospital &<br>Gastroenterology Center Pvt. Ltd.,</h2>
+                                </div>
+                            </div>
+                            <!-- Footer Logo End -->
+                            <!-- Footer Social Links Start  -->
+                            <div class="footer-social-links">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Social Links End  -->
+                        </div>
+                        <!-- Footer Header End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Quick Links</h2>
+                            <ul>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="specialities.html">Specialities</a></li>
+                                <li><a href="doctors.html">Our Doctor</a></li>
+                                <li><a href="facilities.html">Facilities</a></li>
+                                <li><a href="scheme.html">Scheme</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Medical Services</h2>
+                            <ul>
+                                <li><a href="pediatric-care.html">Pediatric Care</a></li>
+                                <li><a href="family-medicine.html">Family Medicine</a></li>
+                                <li><a href="preventive-healthcare.html">Preventive Healthcare</a></li>
+                                <li><a href="neurology-treatment.html">Neurology Treatment</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Support</h2>
+                            <ul>
+                                <li><a href="help-center.html">Help Center</a></li>
+                                <li><a href="customer-support.html">Customer Support</a></li>
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a href="contact-support.html">Contact Support</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+                    </div>
+                    <!-- Footer Links Box End -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Copyright Start -->
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Footer Copyright Text Start -->
+                        <div class="footer-copyright-text">
+                            <p>Copyright © 2026 All Rights Reserved. by <a href="https://www.infotreetech.in/" target="_blank" rel="noopener noreferrer">infotreetech</a></p>
+                        </div>
+                        <!-- Footer Copyright Text End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright End -->
+    </div>
+    <!-- Main Footer End -->
+
+    <!-- Jquery Library File -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Circle Progress Js File -->
+    <script src="js/circle-progress.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="js/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="js/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="js/SmoothScroll.js"></script>
+    <!-- Parallax js -->
+    <script src="js/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <!-- Text Effect js file -->
+    <script src="js/SplitText.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Wow js file -->
+    <script src="js/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+</body>
+
+</html>

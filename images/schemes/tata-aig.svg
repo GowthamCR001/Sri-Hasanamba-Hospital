@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 65" width="220" height="65">
+  <rect width="220" height="65" rx="8" fill="#ffffff"/>
+  <g transform="translate(12, 10)">
+    <rect x="2" y="6" width="34" height="34" rx="6" fill="#005A9C"/>
+    <text x="19" y="30" font-family="'Rethink Sans', 'Arial', sans-serif" font-weight="900" font-size="16" fill="#ffffff" text-anchor="middle">TATA</text>
+    <text x="44" y="24" font-family="'Rethink Sans', 'Arial', sans-serif" font-weight="800" font-size="19" fill="#005A9C">TATA <tspan fill="#C8102E">AIG</tspan></text>
+    <text x="44" y="38" font-family="'Rethink Sans', 'Arial', sans-serif" font-weight="700" font-size="10.5" fill="#455A64" letter-spacing="1.2">INSURANCE</text>
+  </g>
+</svg>

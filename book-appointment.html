@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description"
+        content="Book your doctor appointment online at Sri Hasanamba Multispeciality Hospital & Gastroenterology Center.">
+    <meta name="keywords" content="Book Appointment, Hasanamba Hospital Doctor Consultation, OPD Appointment">
+    <meta name="author" content="Sri Hasanamba Hospital">
+    <!-- Page Title -->
+    <title>Book Appointment - Sri Hasanamba Multispeciality Hospital</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpeg">
+    <!-- Google Fonts Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!-- SlickNav Css -->
+    <link href="css/slicknav.min.css" rel="stylesheet">
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Font Awesome Icon Css-->
+    <link href="css/all.min.css" rel="stylesheet" media="screen">
+    <!-- Animated Css -->
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- Magnific Popup Core Css File -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Mouse Cursor Css File -->
+    <link rel="stylesheet" href="css/mousecursor.css">
+    <!-- Main Custom Css -->
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="images/logo.jpeg" alt=""></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Header Start -->
+    <header class="main-header active-sticky-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="./">
+                        <img src="images/logo.jpeg" alt="Sri Hasanamba Hospital Logo">
+                    </a>
+                    <!-- Logo End -->
+
+                    <!-- Main Menu Start -->
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="specialities.html">Specialities</a></li>
+                                <li class="nav-item"><a class="nav-link" href="doctors.html">Our Doctor</a></li>
+                                <li class="nav-item"><a class="nav-link" href="facilities.html">Facilities</a></li>
+                                <li class="nav-item"><a class="nav-link" href="scheme.html">Scheme</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item highlighted-menu active"><a class="nav-link"
+                                        href="book-appointment.html">Book Appointment</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Header Btn Start -->
+                        <div class="header-btn">
+                            <a href="book-appointment.html" class="btn-default btn-highlighted">Book Appointment</a>
+                        </div>
+                        <!-- Header Btn End -->
+                    </div>
+                    <!-- Main Menu End -->
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Page Header Section Start -->
+    <div class="page-header dark-section parallaxie">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Page Header Box Start -->
+                    <div class="page-header-box">
+                        <h1 class="text-anime-style-3" data-cursor="-opaque">Book an Appointment</h1>
+                        <nav class="wow fadeInUp">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">HOME</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Book Appointment</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <!-- Page Header Box End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header Section End -->
+
+    <!-- Appointment Form Section Start -->
+    <div class="page-contact-us" style="padding: 80px 0;">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-12">
+                    <div class="section-title section-title-center">
+                        <span class="section-sub-title wow fadeInUp">Schedule Your Visit</span>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Consult With Our Medical Experts</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.2s">Fill in the details below to request your
+                            consultation slot. Our appointment coordinator will confirm your timing via call or SMS.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="contact-form wow fadeInUp"
+                        style="background: #fff; padding: 40px; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.06); border: 1px solid #edf2f7;">
+                        <form id="appointmentForm"
+                            onsubmit="event.preventDefault(); document.getElementById('bookingSuccess').style.display='block'; this.reset();">
+                            <div class="row">
+                                <div class="form-group col-md-6 mb-4">
+                                    <label
+                                        style="font-weight: 600; margin-bottom: 8px; color: var(--primary-color);">Patient
+                                        Full Name *</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Enter patient name"
+                                        required>
+                                </div>
+                                <div class="form-group col-md-6 mb-4">
+                                    <label
+                                        style="font-weight: 600; margin-bottom: 8px; color: var(--primary-color);">Phone
+                                        Number *</label>
+                                    <input type="tel" name="phone" class="form-control"
+                                        placeholder="Enter 10-digit mobile number" required>
+                                </div>
+                                <div class="form-group col-md-6 mb-4">
+                                    <label
+                                        style="font-weight: 600; margin-bottom: 8px; color: var(--primary-color);">Email
+                                        Address</label>
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="Enter email address">
+                                </div>
+                                <div class="form-group col-md-6 mb-4">
+                                    <label
+                                        style="font-weight: 600; margin-bottom: 8px; color: var(--primary-color);">Select
+                                        Speciality *</label>
+                                    <select name="speciality" class="form-control form-select" required>
+                                        <option value="">-- Choose Department --</option>
+                                        <option value="Gastroenterology">Gastroenterology & Hepatology</option>
+                                        <option value="General Surgery">General & Laparoscopic Surgery</option>
+                                        <option value="General Medicine">General Medicine & Diabetology</option>
+                                        <option value="Pediatrics">Pediatrics & Neonatal Care</option>
+                                        <option value="Obstetrics & Gynecology">Obstetrics & Gynaecology</option>
+                                        <option value="Orthopedics">Orthopedics & Joint Replacement</option>
+                                        <option value="Cardiology">Cardiology</option>
+                                        <option value="Nephrology">Nephrology & Dialysis</option>
+                                        <option value="ENT">ENT (Ear, Nose, Throat)</option>
+                                        <option value="Dermatology">Dermatology</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6 mb-4">
+                                    <label
+                                        style="font-weight: 600; margin-bottom: 8px; color: var(--primary-color);">Preferred
+                                        Doctor (Optional)</label>
+                                    <select name="doctor" class="form-control form-select">
+                                        <option value="">-- Any Available Specialist --</option>
+                                        <option value="Dr. Basavaraja G. N.">Dr. Basavaraja G. N. (Surgical
+                                            Gastroenterologist & Hepatobiliary Surgeon)</option>
+                                        <option value="Dr. Prerna G. Bhanathi">Dr. Prerna G. Bhanathi (Physician &
+                                            Critical Care Specialist)</option>
+                                        <option value="Dr. Manu B. B.">Dr. Manu B. B. (Orthopaedic & Spine Surgeon)
+                                        </option>
+                                        <option value="Dr. Prashanth Kumar G. A.">Dr. Prashanth Kumar G. A. (Orthopaedic
+                                            Specialist)</option>
+                                        <option value="Dr. Manohar S. R.">Dr. Manohar S. R. (ENT Specialist)</option>
+                                        <option value="Dr. Harsha Suresh">Dr. Harsha Suresh (Neurosurgeon)</option>
+                                        <option value="Dr. Raghavendra B. K.">Dr. Raghavendra B. K. (Consultant
+                                            Oncologist)</option>
+                                        <option value="Dr. Ravi T. Chickkanamanavar">Dr. Ravi T. Chickkanamanavar
+                                            (Internal Medicine Specialist)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6 mb-4">
+                                    <label
+                                        style="font-weight: 600; margin-bottom: 8px; color: var(--primary-color);">Preferred
+                                        Date *</label>
+                                    <input type="date" name="date" class="form-control" required>
+                                </div>
+                                <div class="form-group col-md-12 mb-4">
+                                    <label
+                                        style="font-weight: 600; margin-bottom: 8px; color: var(--primary-color);">Reason
+                                        for Consultation / Symptoms</label>
+                                    <textarea name="message" class="form-control" rows="3"
+                                        placeholder="Briefly describe symptoms or medical concerns..."></textarea>
+                                </div>
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn-default btn-highlighted"
+                                        style="width: 100%; font-size: 16px; padding: 14px;">Confirm & Book
+                                        Appointment</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div id="bookingSuccess"
+                            style="display: none; margin-top: 25px; padding: 20px; background: #e6f9f0; border-left: 4px solid #10b981; border-radius: 8px; color: #065f46;">
+                            <h4 style="color: #065f46; font-size: 18px; margin-bottom: 6px;"><i
+                                    class="fa fa-check-circle"></i> Appointment Request Submitted Successfully!</h4>
+                            <p style="margin-bottom: 0;">Thank you! Our hospital reception team has received your
+                                request and will call you shortly to confirm your consultation token number.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-5 mt-lg-0">
+                    <div class="contact-info-box"
+                        style="background: var(--primary-color); color: #fff; padding: 40px 30px; border-radius: 16px;">
+                        <h3 style="color: #fff; font-size: 24px; font-weight: 700; margin-bottom: 15px;">Hospital
+                            Helpline</h3>
+                        <p style="color: rgba(255,255,255,0.85); font-size: 15px; margin-bottom: 25px;">Need immediate
+                            consultation or emergency medical ambulance assistance? Reach our helpline directly.</p>
+
+                        <div style="margin-bottom: 25px;">
+                            <p
+                                style="color: var(--accent-color); font-weight: 600; margin-bottom: 4px; font-size: 14px;">
+                                24/7 EMERGENCY & AMBULANCE</p>
+                            <h4 style="color: #fff; font-size: 20px; font-weight: 700;"><a href="tel:8884074940"
+                                    style="color: #fff;">88840 74940</a> / <a href="tel:6360812496"
+                                    style="color: #fff;">63608 12496</a></h4>
+                        </div>
+
+                        <div style="margin-bottom: 25px;">
+                            <p
+                                style="color: var(--accent-color); font-weight: 600; margin-bottom: 4px; font-size: 14px;">
+                                OPD APPOINTMENT DESK</p>
+                            <h4 style="color: #fff; font-size: 18px; font-weight: 600; color: #fff;">Monday - Saturday:
+                                08:00 AM - 08:30 PM</h4>
+                        </div>
+
+                        <div style="margin-bottom: 25px;">
+                            <p
+                                style="color: var(--accent-color); font-weight: 600; margin-bottom: 4px; font-size: 14px;">
+                                SCHEMES & CASHLESS DESK</p>
+                            <p style="color: rgba(255,255,255,0.85); margin-bottom: 0;">Ayushman Bharat (AB-ARK),
+                                Yeshasvini, ESI, and All Major Insurance TPAs available.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment Form Section End -->
+
+    <!-- Main Footer Start -->
+    <div class="main-footer bg-section dark-section">
+        <div class="container">
+            <div class="row">
+                <!--<div class="col-xl-5">
+                    <div class="lets-talk-box">
+                        <div class="section-title">
+                            <span class="section-sub-title wow fadeInUp">Let's Start Your Project</span>
+                           
+                            <div class="lets-talk-title">
+                                <h2><a href="contact.html">Let's Talk</a></h2>
+                               
+                                <div class="years-experience-circle">
+                                    <figure>
+                                        <img src="images/years-experience-circle-accent.svg" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+                <div class="col-xl-12">
+                    <!-- Footer Links Box Start -->
+                    <div class="footer-links-box">
+                        <!-- Footer Header Start -->
+                        <div class="footer-header">
+                            <!-- Footer Logo Start -->
+                            <div class="footer-logo">
+                                <img src="images/logo.jpeg" alt="Sri Hasanamba Hospital">
+                            </div>
+                            <!-- Footer Logo End -->
+                            <div class="footer-logo">
+                                <h1>Hasanamba Hospital</h1>
+                                <h2>Multi Speciality Hospital &<br>Gastroenterology Center Pvt. Ltd.,</h2>
+                            </div>
+                            <!-- Footer Social Links Start  -->
+                            <div class="footer-social-links">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Footer Social Links End  -->
+                        </div>
+                        <!-- Footer Header End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Quick Links</h2>
+                            <ul>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="specialities.html">Specialities</a></li>
+                                <li><a href="doctors.html">Our Doctor</a></li>
+                                <li><a href="facilities.html">Facilities</a></li>
+                                <li><a href="scheme.html">Scheme</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Medical Services</h2>
+                            <ul>
+                                <li><a href="pediatric-care.html">Pediatric Care</a></li>
+                                <li><a href="family-medicine.html">Family Medicine</a></li>
+                                <li><a href="preventive-healthcare.html">Preventive Healthcare</a></li>
+                                <li><a href="neurology-treatment.html">Neurology Treatment</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+
+                        <!-- Footer Links Start -->
+                        <div class="footer-links">
+                            <h2>Support</h2>
+                            <ul>
+                                <li><a href="help-center.html">Help Center</a></li>
+                                <li><a href="customer-support.html">Customer Support</a></li>
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a href="contact-support.html">Contact Support</a></li>
+                            </ul>
+                        </div>
+                        <!-- Footer Links End -->
+                    </div>
+                    <!-- Footer Links Box End -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Copyright Start -->
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Footer Copyright Text Start -->
+                        <div class="footer-copyright-text">
+                            <p>Copyright © 2026 All Rights Reserved. by <a href="https://www.infotreetech.in/" target="_blank" rel="noopener noreferrer">infotreetech</a></p>
+                        </div>
+                        <!-- Footer Copyright Text End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Copyright End -->
+    </div>
+    <!-- Main Footer End -->
+
+    <!-- Jquery Library File -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Circle Progress Js File -->
+    <script src="js/circle-progress.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="js/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="js/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="js/SmoothScroll.js"></script>
+    <!-- Parallax js -->
+    <script src="js/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <!-- Text Effect js file -->
+    <script src="js/SplitText.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Wow js file -->
+    <script src="js/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+</body>
+
+</html>

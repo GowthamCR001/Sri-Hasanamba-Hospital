@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Femur / Upper Bone -->
+  <path d="M10 2H14V7C14 8.5 15.5 9.5 17 9.5C18 9.5 18.5 8.5 18.5 7.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M10 7C10 8.5 8.5 9.5 7 9.5C6 9.5 5.5 8.5 5.5 7.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Articular Joint Replacement Spacer / Implant -->
+  <rect x="5" y="11" width="14" height="2.5" rx="1.2" stroke="white" stroke-width="1.6" fill="white" fill-opacity="0.3"/>
+  <!-- Tibia & Fibula / Lower Bones -->
+  <path d="M10 22V15C10 14 8.5 13.5 7 13.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M14 22V15C14 14 15.5 13.5 17 13.5" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Joint Ligament & Arthroscopic Target Crosshairs -->
+  <circle cx="12" cy="12.2" r="3.2" stroke="white" stroke-width="1.2" stroke-dasharray="2 2"/>
+</svg>

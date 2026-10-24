@@ -1,0 +1,12 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mother profile / head -->
+  <circle cx="10" cy="5" r="2.5" stroke="white" stroke-width="1.6"/>
+  <!-- Mother's caring contour -->
+  <path d="M4.5 19C4.5 14 7 11 10.5 11C12 11 13 11.8 14 13" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Newborn baby head -->
+  <circle cx="15.5" cy="11.5" r="2" stroke="white" stroke-width="1.6"/>
+  <!-- Baby swaddle bundle -->
+  <path d="M14 13.5C15 13 17 13.8 18 15.5C19 17.5 17.5 19.5 15.5 20C13 20.5 11 19.5 10 18" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+  <!-- Protective cradling embrace -->
+  <path d="M5.5 19C7 21 11 21.8 14.5 21" stroke="white" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
